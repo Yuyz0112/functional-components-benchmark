@@ -1,0 +1,44 @@
+/*!
+Pure v1.0.0
+Copyright 2013 Yahoo!
+Licensed under the BSD License.
+https://github.com/yahoo/pure/blob/master/LICENSE.md
+*/
+.pure-table{border-collapse:collapse;border-spacing:0;empty-cells:show;border:1px solid #cbcbcb}.pure-table caption{color:#000;font:italic 85%/1 arial,sans-serif;padding:1em 0;text-align:center}.pure-table td,.pure-table th{border-left:1px solid #cbcbcb;border-width:0 0 0 1px;font-size:inherit;margin:0;overflow:visible;padding:.5em 1em}.pure-table td:first-child,.pure-table th:first-child{border-left-width:0}.pure-table thead{background-color:#e0e0e0;color:#000;text-align:left;vertical-align:bottom}.pure-table td{background-color:transparent}.pure-table-odd td,.pure-table-striped tr:nth-child(2n-1) td{background-color:#f2f2f2}.pure-table-bordered td{border-bottom:1px solid #cbcbcb}.pure-table-bordered tbody>tr:last-child>td{border-bottom-width:0}.pure-table-horizontal td,.pure-table-horizontal th{border-width:0 0 1px;border-bottom:1px solid #cbcbcb}.pure-table-horizontal tbody>tr:last-child>td{border-bottom-width:0}
+
+.progress {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  height: 36px;
+  line-height: 36px;
+}
+.label,
+.total,
+.percentage {
+  display: inline-block;
+}
+.label {
+  width: 200px;
+  text-align: right;
+  margin-right: 5px;
+}
+.result {
+  background: #1f2024;
+  color: white;
+}
+.total {
+  flex: 1;
+  height: 12px;
+  background: #1f2024;
+  position: relative;
+  border-radius: 0 6px 6px 0;
+}
+.percentage {
+  height: 4px;
+  background: linear-gradient(to right, #8c6ae7, #f161bd);
+  position: absolute;
+  left: 0;
+  top: 4px;
+  border-radius: 0 2px 2px 0;
+}
